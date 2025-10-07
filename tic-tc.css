@@ -118,6 +118,7 @@ h1 {
   
   .container{
     width: 90%;
+    margin-top: 50%;
   }
     .board {
     width: 240px;
@@ -129,5 +130,6 @@ h1 {
     font-size: 1.8rem;
   }
 }
+
 
 
