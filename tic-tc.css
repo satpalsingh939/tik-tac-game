@@ -28,6 +28,7 @@ background-color: #243b559d;
   /* width: 90%; */
   /* max-width: 400px; */
   width: 40%;
+  margin-top: 5%;
 }
 
 h1 {
@@ -126,3 +127,4 @@ h1 {
     font-size: 1.8rem;
   }
 }
+
