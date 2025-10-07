@@ -4,47 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic-Tac-Tao-Game</title>
+    <title>Tic-Tac-Tao-Game - S</title>
     <link rel="stylesheet" href="tic-tc.css">
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="boxM">
-            <h3> Tic Tac Tao Game -</h3>
+    <div cla<div class="container">
+    <h1>Tic Tac Toe by S</h1>
+    <p id="result"></p>
 
-            <p id="result">
-
-            </p>
-            <div class="board">
-                <div class="row1">
-                    <div class="b"></div>
-                    <div class="b"></div>
-                    <div class="b"></div>
-                </div>
-                <div class="row2">
-                    <div class="b"></div>
-                    <div class="b"></div>
-                    <div class="b"></div>
-                </div>
-                <div class="row3">
-                    <div class="b"></div>
-                    <div class="b"></div>
-                    <div class="b"></div>
-                </div>
-            </div>
-            <div class="reset">
-                <button onclick="resetGame()">Reset</button>
-            </div>
-
-        </div>
-
+    <div class="mode-select">
+      <button id="friendMode" class="active">Play with Friend</button>
+      <button id="computerMode">Play with Computer</button>
     </div>
 
+    <div class="board" id="board">
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+      <div class="b"></div>
+    </div>
+
+    <button id="resetBtn" class="reset">Reset</button>
+  </div>
 
 
     <script src="tic-tac.js"></script>
 </body>
+
 
 </html>
