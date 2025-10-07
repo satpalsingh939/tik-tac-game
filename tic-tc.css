@@ -15,7 +15,9 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+   background-attachment: fixed;
 background-color: #243b559d;
+  
 }
 
 
@@ -127,4 +129,5 @@ h1 {
     font-size: 1.8rem;
   }
 }
+
 
